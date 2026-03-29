@@ -1,0 +1,49 @@
+.bottomBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 12px 16px;
+  background: #fff;
+  border-top: 1px solid #e5e7eb;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.btnHint {
+  padding: 8px 16px;
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.btnHint:hover:not(:disabled) {
+  background: #fde68a;
+}
+
+.btnSecondary {
+  background: #f3f4f6;
+  color: #4b5563;
+}
+
+.btnSecondary:hover:not(:disabled) {
+  background: #e5e7eb;
+}
+
+.btnSolution {
+  padding: 8px 16px;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

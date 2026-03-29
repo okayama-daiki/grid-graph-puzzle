@@ -1,0 +1,7 @@
+.puzzleSvg {
+  cursor: grab;
+}
+
+.puzzleSvg:active {
+  cursor: grabbing;
+}

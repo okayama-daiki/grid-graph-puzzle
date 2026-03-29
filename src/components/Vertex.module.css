@@ -1,0 +1,17 @@
+.root {
+  transition: none;
+  cursor: default;
+}
+
+.animating {
+  transition: transform 0.5s ease-in-out;
+}
+
+.interactive {
+  cursor: grab;
+}
+
+.label {
+  pointer-events: none;
+  user-select: none;
+}

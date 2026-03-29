@@ -1,0 +1,27 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #f9fafb;
+}
+
+.canvasContainer {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.loadingOverlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(249, 250, 251, 0.8);
+  z-index: 10;
+}
+
+.loadingText {
+  font-size: 1.125rem;
+  color: #6b7280;
+}
